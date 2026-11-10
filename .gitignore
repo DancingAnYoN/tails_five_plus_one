@@ -1,0 +1,26 @@
+# Julia (package + optional viz environment)
+**/Manifest.toml
+**/LocalPreferences.toml
+*.jl.cov
+*.jl.mem
+*.jl.*.cov
+
+# Generated numerical output; keep the directory itself
+/results/*
+!/results/.gitkeep
+
+# Local IDE & OS settings
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Julia generated documentation / compiled artifacts
+/docs/build/
+/coverage/
+
+# Temporary Python artifacts from external analysis
+__pycache__/
+*.pyc

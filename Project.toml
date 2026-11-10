@@ -1,0 +1,17 @@
+name = "MMIEFD6"
+uuid = "91a2ade3-4f1c-4ff0-92e1-20976c9d2701"
+authors = ["D6 MMIEF research prototype (adapted from the MMIEF project)"]
+version = "0.1.0"
+
+[deps]
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+TOML = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
+
+[compat]
+julia = "1.10"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
